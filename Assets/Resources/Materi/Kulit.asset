@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6d60760745ce748884439d3361e82f, type: 3}
+  m_Name: Kulit
+  m_EditorClassIdentifier: 
+  contents:
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: Kulit merupakan organ tubuh yang terletak paling luar dari tubuh manusia
+      yang salah satu fungsi nya adalah untuk mengeluarkan keringat. Selain fungsi
+      tersebut, kulit juga berfungsi untuk melindungi jaringan di bawahnya dari kerusakan-kerusakan
+      fisik karena gesekan, penyinaran, berbagai jenis kuman, dan zat kimia berbahaya.
+      Selain itu, kulit juga berfungsi untuk mengurangi kehilangan air dalam tubuh,
+      mengatur suhu tubuh, dan menerima rangsangan dari luar. Kulit terdiri atas
+      tiga lapisan yaitu lapisan epidermis (kulit ari) dan lapisan dermis (kulit
+      jangat)
+    contentType: 1
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6ce19d39ae8eb07439b210ba71b2ccac, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: "A) Lapisan Epidermis (Kulit Ari) \r\nEpidermis merupakan lapisan kulit
+      paling luar yang tersusun atas sel-sel epitel yang mengalami keratinisasi.
+      Pada lapisan epidermis tidak terdapat pembuluh darah maupun serabut saraf.
+      Pada lapisan epidermis, masih terdapat beberapa lapisan kulit, antara lain
+      stratum korneum yang merupakan lapisan kulit mati dan selalu mengelupas dan
+      lapisan stratum granulosum yang mengandung pigmen melanin. Di bawah stratum
+      granulosum terdapat lapisan stratum germinativum yang terus menerus membentuk
+      sel-sel baru ke arah luar menggantikan sel-sel kulit yang terkelupas.\r\n\r\nB)
+      Lapisan Dermis (Kulit Jangat) \r\nLapisan dermis terdapat dibawah lapisan epidermis.
+      Pada lapisan dermis terdapat otot penggerak rambut, pembuluh darah, pembuluh
+      limfa, saraf, kelenjar minyak (glandula sebasea), dan kelenjar keringat (glandula
+      sudorifera). Kelenjar keringat berbentuk seperti pembuluh panjang. Pangkal
+      kelenjar keringat menggulung dan berhubungan dengan kapiler darah dan serabut
+      saraf. Serabut saraf akan meningkatkan kerja kelenjar keringat, sehingga merangsang
+      produksi keringat. Kelenjar keringat akan menyerap air, ion-ion, NaCl, dan
+      urea dari dalam darah yang kemudian dikeluarkan melalui pori-pori kulit.  
+      \r\nDi bawah lapisan dermis, terdapat lapisan hipodermis atau lapisan subkutan.
+      Lapisan hipodermis bukan merupakan bagian dari kulit, namun merupakan kumpulan
+      jaringan ikat yang berfungsi melekatkan kulit pada otot. Lapisan hipodermis
+      banyak tersusun atas jaringan lemak sehingga juga berfungsi menjaga suhu tubuh."
+    contentType: 1

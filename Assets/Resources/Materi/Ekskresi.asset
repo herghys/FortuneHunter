@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6d60760745ce748884439d3361e82f, type: 3}
+  m_Name: Ekskresi
+  m_EditorClassIdentifier: 
+  contents:
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 'Sistem ekskresi merupakan proses pengeluaran zat-zat sisa metabolisme
+      yang sudah tidak digunakan lagi oleh tubuh. Sisa-sisa metabolisme ini berupa
+      senyawa-senyawa yang bersifat toksik (racun) sehingga jika tidak dikeluarkan
+      dapat menyebabkan terganggunya fungsi organ-organ di dalam tubuh. Proses ekskresi
+      dilakukan oleh organ khusus yang secara kolektif membentuk sistem ekskresi
+      manusia.
+
+
+      Zat-zat sisa metabolisme (limbah metabolisme) harus segera
+      dikeluarkan dari dalam tubuh. Jika tidak, zat tersebut dapat meracuni sel atau
+      dapat menghambat proses metabolisme dalam tubuh. Organ-organ yang berperan
+      dalam sistem ekskresi berfungsi, antara lain ginjal, paru-paru, kulit dan hati.
+      Proses ekskresi berfungsi, antara lain sebagai berikut :
+
+      a) Menurunkan
+      kadar zat produk metabolisme dalam tubuh agar tidak menyebabkan   penimbunan
+
+      b)
+      Melindungi sel-sel tubuh dari zat-zat yang bersifat racun
+
+      c) Menjaga
+      keseimbangan cairan dalam tubuh (homeostasis)
+
+      d) Membantu mempertahankan
+      suhu tubuh
+
+'
+    contentType: 1

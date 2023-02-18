@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="Data Creator Editor WIndow" display-tooltip-when-elided="true" />
+    <uie:IntegerField label="Level" value="1" name="levelField" binding-path="level" />
+    <ui:Foldout text="Question" name="Question_Foldout" />
+</ui:UXML>

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Materi_SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b37231a1f1a16c84aa2005517ad27843, type: 3}
+    - {fileID: 2800000, guid: 30f0f635f8af71e4b9d809b48f6cc0f8, type: 3}
+    - {fileID: 2800000, guid: 0e01f2f025012fa45b0bc5afe093ed04, type: 3}
+    - {fileID: 2800000, guid: d8b779b3742217143ad3bfe3f58158b1, type: 3}
+    - {fileID: 2800000, guid: df6fcac1d8f03b845af323b2e74cbac5, type: 3}
+    - {fileID: 2800000, guid: 782f385e0018891469554c280eb21c51, type: 3}
+    - {fileID: 2800000, guid: 63ca31c4299a0a34e99fdc049f7cd91c, type: 3}
+    - {fileID: 2800000, guid: 6ce19d39ae8eb07439b210ba71b2ccac, type: 3}
+    - {fileID: 2800000, guid: b68ab2ba278805448a097843684142ba, type: 3}
+    - {fileID: 2800000, guid: 3a06a308c3f8bfa46b151d32d6fa1e64, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0e01f2f025012fa45b0bc5afe093ed04, type: 3}
+  - {fileID: 21300000, guid: b37231a1f1a16c84aa2005517ad27843, type: 3}
+  - {fileID: 21300000, guid: df6fcac1d8f03b845af323b2e74cbac5, type: 3}
+  - {fileID: 21300000, guid: d8b779b3742217143ad3bfe3f58158b1, type: 3}
+  - {fileID: 21300000, guid: 63ca31c4299a0a34e99fdc049f7cd91c, type: 3}
+  - {fileID: 21300000, guid: 30f0f635f8af71e4b9d809b48f6cc0f8, type: 3}
+  - {fileID: 21300000, guid: 3a06a308c3f8bfa46b151d32d6fa1e64, type: 3}
+  - {fileID: 21300000, guid: 6ce19d39ae8eb07439b210ba71b2ccac, type: 3}
+  - {fileID: 21300000, guid: b68ab2ba278805448a097843684142ba, type: 3}
+  - {fileID: 21300000, guid: 782f385e0018891469554c280eb21c51, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Ginjal_0
+  - Batu_Ginjal
+  - Hati_0
+  - Ginjal_1
+  - Jerawat
+  - Biang_Keringat
+  - Paru_0
+  - Kulit_0
+  - Nefritis
+  - Hati_1
+  m_RenderDataMap: {}
+  m_Tag: Materi_SpriteAtlas
+  m_IsVariant: 0

@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -176,7 +176,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 429427750}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -221,9 +222,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -295,9 +304,65 @@ MonoBehaviour:
   m_Dithering: 0
   m_ClearDepth: 1
   m_AllowXRRendering: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
+--- !u!1 &429427749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 429427750}
+  - component: {fileID: 429427752}
+  m_Layer: 0
+  m_Name: QuestionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &429427750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429427749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 204350520}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &429427752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429427749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7777db041ade56047aaf8edb4e93f03b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroy: 0
+  answeredQuestions: []
 --- !u!1 &1659499472
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659499473}
+  - component: {fileID: 1659499474}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -329,3 +395,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1659499474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659499472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7fa4e29342d36418d01a75797dceaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizData:
+  - {fileID: 11400000, guid: a198021d81a8a3141b85ced56c4f3f82, type: 2}
+  - {fileID: 11400000, guid: 0b548bbf3ec811e45b6aa840dae76fa8, type: 2}
+  - {fileID: 11400000, guid: 82f38e24864157348a11bb89b99ab888, type: 2}
+  - {fileID: 11400000, guid: 4f0860c1174111344a130c9ccd4fd950, type: 2}
+  currentQuestionIndex: 0
+  selectedAnswerIndex: 0
+  currentQuestion:
+    type: 0
+    questionImage: {fileID: 0}
+    questionNo: 0
+    questionIndex: 0
+    materi: 0
+    questionInfo: 
+    timer: 5
+    selectedAnswer:
+      answerInfo: 
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    answers: []
+  selectedAnswer:
+    answerInfo: 
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  answeredQuestion:
+    questionNo: 0
+    questionIndex: 0
+    materi: 0
+    questionInfo: 
+    isCorrect: 0
+    selectedAnswer:
+      answerInfo: 
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    answers: []

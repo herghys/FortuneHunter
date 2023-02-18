@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6d60760745ce748884439d3361e82f, type: 3}
+  m_Name: Hati
+  m_EditorClassIdentifier: 
+  contents:
+  - title: Head
+    sprite: {fileID: 0}
+    text: Hati
+    contentType: 0
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Selain berperan dalam sistem pencernaan, hati juga berperan dalam sistem
+      ekskresi, yaitu mengekskresikan zat warna empedu yang disebut dengan bilirubin.
+      Masih ingatkah kamu dari mana bilirubin ini dihasilkan? Bilirubin dihasilkan
+      dari pemecahan hemoglobin yang terdapat pada sel darah merah. Sel darah merah
+      hanya memiliki rentang waktu hidup antara 100 - 120 hari karena sel darah merah
+      tidak memiliki inti sel dan membran selnya selalu bergesekan dengan pembuluh
+      kapiler darah. Karena tidak memiliki inti sel, sel darah merah tidak dapat
+      membentuk komponen baru untuk menggantikan komponen sel yang rusak.
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: df6fcac1d8f03b845af323b2e74cbac5, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Sel darah merah yang rusak akan dihancurkan oleh makrofag di dalam hati
+      dan limpa. Hemoglobin yang terkandung dalam sel darah merah dipecah menjadi
+      zat besi, globin, dan hemin. Zat besi selanjutnya dibawa menuju sumsum merah
+      tulang untuk digunakan membentuk hemoglobin baru. Globin dipecah menjadi asam
+      amino untuk digunakan dalam pembentukan`protein lain. Sedangkan hemin diubah
+      menjadi zat warna hijau yang disebut biliverdin. Biliverdin kemudian diubah
+      menjadi bilirubin yang merupakan zat warna kuning oranye. Bilirubin selanjutnya
+      dikeluarkan bersama getah  empedu. Getah empedu dikeluarkan ke usus dua belas
+      jari, kemudian menuju usus besar. Di dalam usus besar bilirubin diubah menjadi
+      urobilinogen. Urobilinogen diubah menjadi urobilin sebagai pewarna kuning pada
+      urine dan sterkobilin sebagai pigmen cokelat pada feses. Perhatikan Gambar
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: 782f385e0018891469554c280eb21c51, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Organ hati juga berfungsi mengubah amonia (NH3) yang berbahaya  jika berada
+      dalam tubuh, menjadi zat yang lebih aman, yaitu urea. Amonia tersebut dihasilkan
+      dari proses metabolisme asam amino. Urea dari dalam hati akan dikeluarkan dan
+      diangkut oleh darah menuju ginjal untuk dikeluarkan bersama urine
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Head
+    sprite: {fileID: 0}
+    text: Gangguan Sistem Ekskresi Manusia dan Pencegahannya
+    contentType: 0
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead
+    sprite: {fileID: 0}
+    text: 1. Nefritis
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Nefritis adalah penyakit rusaknya nefron, terutama pada bagian-bagian glomerulus
+      ginjal. Nefritis disebabkan oleh infeksi bakteri Streptococcus. Nefritis mengakibatkan
+      masuknya kembali asam urat dan urea ke pembuluh darah (uremia) serta adanya
+      penimbunan air di kaki karena reabsorpsi air yang terganggu (edema). Upaya
+      penanganan nefritis adalah dengan proses cuci darah atau pencangkokan ginjal
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 0}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 2. Batu Ginjal
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Batu ginjal adalah gangguan yang terjadi akibat terbentuknya endapan garam
+      kalsium di dalam rongga ginjal (pelvis renalis), saluran ginjal, atau kandung
+      kemih. Batu ginjal berbentuk kristal yang tidak dapat larut. Kandungan batu
+      ginjal adalah kalsium oksalat, asam urat, dan kristal kalsium fosfat. Endapan
+      ini terbentuk jika seseorang terlalu banyak mengonsumsi garam mineral dan kekurangan
+      minum air serta sering menahan kencing. Upaya mencegah terbentuknya batu ginjal
+      adalah dengan meminum cukup air putih setiap hari, membatasi konsumsi garam
+      karena kandungan natrium yang tinggi  pada garam dapat memicu terbentuknya
+      batu ginjal, serta tidak sering menahaan kencing. Batu ginjal yang kecil dapat
+      saja keluar melalui urine, tetapi seringkali menyebabkan rasa sakit. Batu ginjal
+      berukuran besar memerlukan operasi untuk mengeluarkannya
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: b37231a1f1a16c84aa2005517ad27843, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 3. Albuminuria
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Albuminuria merupakan penyakit yang terjadi akibat adanya kerusakan pada
+      glomerulus yang berperan dalam proses filtrasi, sehingga pada urine ditemukan
+      adanya protein. Albuminuria dapat terjadi akibat kurangnya asupan air ke dalam
+      tubuh sehingga memperberat kerja ginjal, mengonsumsi terlalu banyak protein,
+      kalsium, dan vitamin C dapat membuat glomerulus harus bekerja lebih keras sehingga
+      meningkatkan risiko kerusakannya. Upaya yang dapat dilakukan untuk mencegah
+      albuminuria adalah dengan mengatur jumlah garam dan protein yang dikonsumsi,
+      serta pola hidup sehat untuk mengatur keseimbangan gizi.
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 4. Hematuria
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Hematuria merupakan penyakit yang ditandai dengan adanya selsel darah merah
+      pada urine. Hal ini disebabkan penyakit pada saluran kemih akibat gesekan dengan
+      batu ginjal. Hematuria juga dapat disebabkan oleh adanya infeksi bakteri pada
+      saluran kemih. Upaya pencegahan hematuria dapat dilakukan dengan segera buang
+      air kecil ketika ingin buang air kecil, membersihkan tempat keluarnya urine
+      dari arah depan ke belakang untuk menghindari masuknya bakteri dari dubur,
+      serta banyak minum air putih. Ketika seseorang sakit hematuria, maka penanganan
+      yang diberikan adalah dengan memberi antibiotik untuk membersihkan infeksi
+      bakteri pada saluran kemih
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 5. Diabetes Insipidus
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Penyakit ini disebabkan karena seseorang kekurangan hormon ADH atau hormon
+      antidiuretik. Kondisi tersebut menyebabkan tubuh tidak dapat menyerap air yang
+      masuk ke dalam tubuh, sehingga penderita akan sering buang air kecil secara
+      terus menerus. Upaya penanganan penderita diabetes insipidus adalah dengan
+      memberikan suntikan hormon antidiuretik sehingga dapat mempertahankan pengeluaran
+      urine secara normal
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 6. Kanker Ginjal
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Merupakan penyakit yang timbul akibat pertumbuhan sel pada ginjal yang
+      tidak terkontrol di sepanjang tubulus dalam ginjal. Hal ini dapat menyebabkan
+      adanya darah pada urine, kerusakan ginjal, dan juga dapat memengaruhi kerja
+      organ lainnya jika kanker ini menyebar, sehingga dapat menyebabkan kematian. 
+      Upaya pencegahan yang dapat dilakukan adalah dengan menghindari penggunaan
+      bahanbahan kimia yang memicu kanker
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 7. Jerawat
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Jerawat atau acne vulgaris merupakan suatu kondisi kulit yang ditandai
+      dengan terjadinya penyumbatan dan peradangan pada kelenjar sebasea (kelenjar
+      minyak). Jerawat dapat timbul karena kurangnya menjaga kebersihan kulit sehingga
+      berpotensi terjadi penumpukan kotoran dan kulit mati. Faktor hormonal yang
+      merangsang kelenjar minyak pada kulit, penggunaan kosmetik yang berlebihan
+      dan mengandung minyak dapat berpotensi menyumbat pori-pori. Konsumsi makanan
+      berlemak secara berlebihan juga dapat menimbulkan jerawat. Jerawat pada umumnya
+      dapat muncul pada wajah, leher, atau punggung. Upaya pencegahan yang dapat
+      dilakukan adalah dengan membersihkan wajah secara rutin, menghindari makanan
+      berlemak, dan lebih banyak mengonsumsi buah-buahan, serta menjaga aktivitas
+      tubuh
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: 63ca31c4299a0a34e99fdc049f7cd91c, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Subhead Content
+    sprite: {fileID: 0}
+    text: 8. Biang Keringat
+    contentType: 4
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Biang keringat terjadi karena kelenjar keringat tersumbat oleh selsel kulit
+      mati yang tidak dapat terbuang secara sempurna. Keringat yang terperangkap
+      tersebut menyebabkan timbulnya bintik-bintik kemerahan yang disertai gatal.
+      Sel-sel kulit mati, debu, dan kosmetik juga dapat menyebabkan terjadinya biang
+      keringat. Orang yang tinggal di daerah tropis dan lembap, akan lebih mudah
+      terkena biang keringat. Biasanya, anggota badan yang terkena biang keringat
+      adalah leher, punggung, dan dada. Biang keringat dapat mengenai siapa saja,
+      baik anak-anak, remaja, ataupun orang tua. Upaya pencegahan yang dilakukan
+      adalah dengan menjaga kebersihan kulit, menggunakan pakaian yang menyerap keringat
+      dan longgar, atau apabila kulit berkeringat segera keringkan dengan tisu atau
+      handuk. Apabila terkena biang keringat maka dapat diobati dengan memberi bedak
+      atau salep yang dapat mengurangi rasa gatal
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: 30f0f635f8af71e4b9d809b48f6cc0f8, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ad441aa47beda4abdff8d73dfaeef2, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  level: 2
+  questions:
+  - type: 0
+    questionImage: {fileID: 0}
+    questionInfo: Sistem ekskresi yang terjadi pada tubuh manusia berfungsi untuk
+    timer: 5
+    answers:
+    - answerInfo: Mengeluarkan zat sisa pencernaan makanan berupa feses
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Mengeluarkan zat yang masih diperlukan oleh tubuh berupa enzim
+        dan hormone
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Mengeluarkan zat sisa metabolisme yang tidak diperlukan lagi oleh
+        tubuh berupa keringat, urin, dan enzim
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Mengeluarkan zat sisa metabolisme yang tidak diperlukan lagi oleh
+        tubuh berupa keringat, urin, dan CO<sub>2</sub>
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 1
+  - type: 0
+    questionImage: {fileID: 0}
+    questionInfo: Bagian ginjal yang tersusun atas jutaan sel nefron yang di dalamnya
+      terdapat badan malpighi yang terdiri atas glomerulus dan kapsula bowman adalah
+    timer: 5
+    answers:
+    - answerInfo: Tubulus kontruktus proksimal
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Korteks
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 1
+    - answerInfo: Pelvis
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Medula
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+  - type: 0
+    questionImage: {fileID: 0}
+    questionInfo: Kapsula bowman adalah bagian nefron ginjal yang mengelilingi
+    timer: 5
+    answers:
+    - answerInfo: Badan malpighi
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Glomerulus
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 1
+    - answerInfo: Tubulus kontruktus distal
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Lengkung henle
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+  - type: 0
+    questionImage: {fileID: 0}
+    questionInfo: Tahapan filtrasi menghasilkan urin yang masih mengandung zat yang
+      berguna bagi tubuh. Berikut ini yang bukan merupakan zat yang terdapat pada
+      urin hasil proses filtrasi adalah
+    timer: 5
+    answers:
+    - answerInfo: Glukosa
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Asam amino
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Garam-garam mineral
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 0
+    - answerInfo: Sel darah merah
+      answerImage: {fileID: 0}
+      isCorrectAnswer: 1

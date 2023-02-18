@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6d60760745ce748884439d3361e82f, type: 3}
+  m_Name: Ginjal
+  m_EditorClassIdentifier: 
+  contents:
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: Posisi ginjal berada di dalam rongga perut tepatnya di sebelah kanan dan
+      kiri tulang belakang. Ginjal pada manusia berjumlah sepasang dan berwarna merah
+      muda. Posisi ginjal sebelah kanan sedikit lebih rendah daripada ginjal sebelah
+      kiri. Hal ini dikarenakan posisi hati menduduki ruang banyak di sebelah kanan.
+      Bentuk ginjal seperti biji kacang, sisi luarnya cembung.
+    contentType: 1
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0e01f2f025012fa45b0bc5afe093ed04, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 'Setiap ginjal selubungi oleh kapsul tipis dan jaringan fibrus. Bagian
+      ginjal terdiri dari bagian luar yang dinamakan korteks (kulit ginjal), lalu
+      bagian dalamnya ada medula (sumsum ginjal). Medula tersusun atas 15 hingga
+      16 massa berbentuk pramida atau dinamakan piramis ginjal. Ujung dari piramida
+      ini akan terhubung pada bagian pelvi (rongga ginjal).
+
+
+      Ginjal memiliki
+      beberapa fungsi diantaranya yaitu mengontrol cairan tubuh dan keseimbangan
+      asam basa; mengekskresikan beberapa produk akhir metabolisme seperti urea,
+      asam urat, dan keratinin yang diekskresikan ke dalam urin sebagai produk akhir
+      metabolisme protein; ekskresi beberapa obat; sekresi hormone; dan memproduksi
+      vitamin D.'
+    contentType: 1
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d8b779b3742217143ad3bfe3f58158b1, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    baseUI: {fileID: 0}
+    sprite: {fileID: 0}
+    text: 'Ginjal sebagai organ ekskresi berperan dalam proses pembentukan urin.
+      Tahapan pembentukan urin menurut Campbell (2008 : 25) terdiri dari tahap penyaringan
+      (filtrasi), penyerapan kembali (reabsorbsi), dan penambahan zat sisa (augmentasi).
+
+
+      a)
+      Tahap Penyaringan (filtrasi), pada tahap ini terjadi penyaringan darah di kapiler
+      glomerulus yang miliki pori, tekanan, dan permeabilitas tinggi untuk mempermudah
+      penyaringan. Hasil dari penyaringan ini beupa urin primer atau nama lainnya
+      adalah filtrat glomerulus. Urin primer mengandung asam amino, glukosa, natrium,
+      kalium, dan garam-garam lainnya.
+
+
+
+      b) Tahap Penyerapan Kembali (reabsorbsi)
+
+      Kandungan
+      zat yang masih terdapat di urin primer akan diserap Kembali di dalam tubulus
+      kontruktus proksimal. Zat yang diserap berupa gula, asam amino, dan air. Gula
+      dan asam amino diserap melalui proses osmosis. Hasil dari tahap penyerapan
+      kembali berupa urin sekunder yang mengandung amonia, obat-obatan seperti penisilin,
+      garam, dan zat lain.
+
+
+
+      c) Tahap Penambahan Zat Sisa (augmentasi).
+
+      Tahap
+      penambahan zat sisa terjadi di tubulus kontruktus distal. Hasil dari tahap
+      ini adalah urin sesungguhnya yang mengandung air, garam, urea, dan substansi
+      lain seperti zat warna empedu yang memberikan warna dan bau pada urin. Urin
+      sesungguhnya akan dikeluarkan melalui tubulus kontruktus distal menuju ke kandung
+      kemih. Kemudian saat kandung kemih penuh maka dindingnya akan tertekan dan
+      menimbulkan rasa ingin buang air kecil. Sehingga urin akan keluar melalui uretra.'
+    contentType: 1

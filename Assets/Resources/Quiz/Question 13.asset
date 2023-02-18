@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
+  m_Name: Question 13
+  m_EditorClassIdentifier: 
+  questionNo: 13
+  questionIndex: 12
+  materi: 0
+  questionInfo: "Paru-paru merupakan organ ekskresi yang berperan dalam proses \u2026 "
+  type: 0
+  questionImage: {fileID: 0}
+  answers:
+  - answerInfo: Mengatur proses bernapas
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: Menyaring udara pernapasan
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: Menghirup gas oksigen
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: Mengeluarkan gas karbondioksida dan uap air
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 1

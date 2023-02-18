@@ -15,4 +15,19 @@ namespace Herghys
     {
         Intro, Playing, Paused, End
     }
+
+	public enum QuestionTypes
+	{
+		NonImage, Image
+	}
+
+	public enum SubjectTypes
+	{
+		Ekskresi, Ginjal, Kulit, Paru, Hati
+	}
+
+	public enum MateriContentType
+	{
+		Head, Text, Space, Image, Subhead
+	}
 }

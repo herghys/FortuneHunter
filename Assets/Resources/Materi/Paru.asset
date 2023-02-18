@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6d60760745ce748884439d3361e82f, type: 3}
+  m_Name: Paru
+  m_EditorClassIdentifier: 
+  contents:
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: Pembahasan tentang organ paru-paru sudah banyak dibahas pada materi sistem
+      pernapasan. Selain berfungsi sebagai alat pernapasan, paru-paru juga berfungsi
+      sebagai alat ekskresi. Masih ingatkah kamu apa yang dikeluarkan paru-paru selama
+      kita bernapas? Bagaimana pertukaran gas yang terjadi di dalam alveolus? Coba
+      perhatikan Gambar
+    contentType: 1
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Image Content
+    sprite: {fileID: 21300000, guid: 3a06a308c3f8bfa46b151d32d6fa1e64, type: 3}
+    text: 
+    contentType: 3
+  - title: Space
+    sprite: {fileID: 0}
+    text: 
+    contentType: 2
+  - title: Text Content
+    sprite: {fileID: 0}
+    text: 'Oksigen yang memasuki alveolus akan berdifusi dengan cepat memasuki kapiler
+      darah yang mengelilingi alveolus, sedangkan karbon dioksida akan berdifusi
+      dengan arah yang sebaliknya. Darah pada alveolus akan mengikat oksigen dan
+      mengangkutnya ke jaringan tubuh. Di dalam pembuluh kapiler jaringan tubuh,
+      darah mengikat karbon dioksida (CO2) untuk dikeluarkan bersama uap air. Reaksi
+      kimia tersebut secara ringkas dapat kita tuliskan sebagai berikut.
+
+
+      C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+      (Glukosa) + O<sub>2</sub> (Oksigen) => CO<sub>2</sub> (Karbon dioksida)  +
+      H<sub>2</sub>O (Uap air)'
+    contentType: 1

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
+  m_Name: Question 3
+  m_EditorClassIdentifier: 
+  questionNo: 3
+  questionIndex: 2
+  materi: 0
+  questionInfo: "Berikut ini daftar organ pada tubuh manusia\r\n<indent=5%>\r\n1)
+    Hidung\r\n2) Kulit\r\n3) Hati\r\n4) Anus\r\n5) Ginjal\r\n6) Paru-Paru\r\n</indent>\r\nBerdasarkan
+    data di atas, organ yang menyusun sistem ekskresi pada manusia adalah nomor\u2026\r"
+  type: 0
+  questionImage: {fileID: 0}
+  answers:
+  - answerInfo: 1,2,3, dan 4
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: 1,2,3, dan 5
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: 2,3,4, dan 6
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: 2,3,5, dan 6
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 1

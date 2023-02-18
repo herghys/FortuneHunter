@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
+  m_Name: Question 8
+  m_EditorClassIdentifier: 
+  questionIndex: 8
+  questionInfo: Berdasarkan gambar di atas, tempat untuk menampun urine sebelum dikeluarkan
+    dari tubuh ditunjukkan pada nomor
+  type: 0
+  questionImage: {fileID: 21300000, guid: 958959cfbd929e54ab69409ae35327a3, type: 3}
+  answers:
+  - answerInfo: 1
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: 2
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
+  - answerInfo: 3
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 1
+  - answerInfo: 4
+    answerImage: {fileID: 0}
+    isCorrectAnswer: 0
