@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
   m_Name: Question 10
   m_EditorClassIdentifier: 
-  questionIndex: 10
+  questionNo: 10
+  questionIndex: 9
+  materi: 0
   questionInfo: Lapisan kulit yang terletak di bagian paling luar dan berfungsi melindungi
     jaringan di bawahnya dari paparan sinar matahari adalah lapisan
   type: 0

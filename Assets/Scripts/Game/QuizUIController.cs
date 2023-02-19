@@ -51,9 +51,14 @@ namespace Herghys
             quizManager = FindObjectOfType<QuizGameManager>();
 		}
 
-		internal void AddSelectedAnswer(Answer answer)
+		public void AddSelectedAnswer(Answer answer)
 		{
 			quizManager.AddSelectedAnswer(answer);
+		}
+
+		internal void UpdateSelectedAnswer(Answer answer)
+		{
+			quizManager.UpdateSelectedAnswer(answer);
 		}
 	}
 }

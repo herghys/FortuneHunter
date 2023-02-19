@@ -9,6 +9,8 @@ namespace Herghys
     {
         [SerializeField] GameManager ui;
 
+		[SerializeField] GameUIBase endGameUI;
+
 		[SerializeField]List<GameUIBase> gameUIs = new List<GameUIBase>();
 		[SerializeField] GameUIBase activeUI;
 
@@ -32,6 +34,11 @@ namespace Herghys
 		public void CloseUI()
 		{
 			activeUI.gameObject.SetActive(false);
+		}
+
+		public void OpenEndGameUI()
+		{
+			OpenUI(endGameUI);
 		}
 
 		private void OnValidate()

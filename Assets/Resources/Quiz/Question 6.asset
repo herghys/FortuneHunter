@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  questionIndex: 6
+  questionNo: 6
+  questionIndex: 5
+  materi: 0
   questionInfo: Berdasrkan gambar struktur ginjal di atas. nama bagian yang ditunjuk
     oleh nomor 2 dan 3 adalah
   type: 1

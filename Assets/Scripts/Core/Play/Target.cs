@@ -8,6 +8,10 @@ namespace Herghys
     public class Target : MonoBehaviour, IClickable
     {
 		[SerializeField] GameManager gameManager;
+		[SerializeField] Collider col;
+		[SerializeField] List<ParticleSystem> particlesToDisable = new();
+
+		[SerializeField] bool isSelected;
 
 		private void Awake()
 		{
@@ -17,11 +21,13 @@ namespace Herghys
 		private void OnEnable()
 		{
 			gameManager.PlayerStopped += OnPlayerStopped;
+			gameManager.QuestionAnswered += OnQuestionAnswered;
 		}
 
 		private void OnDisable()
 		{
 			gameManager.PlayerStopped -= OnPlayerStopped;
+			gameManager.QuestionAnswered -= OnQuestionAnswered;
 		}
 
 		public void Click()
@@ -35,7 +41,18 @@ namespace Herghys
 		private void OnPlayerStopped(Target target)
 		{
 			if (target == this)
-			gameObject.SetActive(false);
+			{
+				particlesToDisable.ForEach (x => x.gameObject.SetActive(false));
+				col.enabled = false;
+				isSelected = true;
+			}	
+			//gameObject.SetActive(false);
+		}
+
+		private void OnQuestionAnswered()
+		{
+			if (isSelected && gameObject.activeSelf)
+				gameObject.SetActive(false);
 		}
 
 
@@ -47,6 +64,8 @@ namespace Herghys
 		private void OnValidate()
 		{
 			if (gameManager is null) gameManager = FindObjectOfType<GameManager>(true);
+			GetComponentsInChildren(true, particlesToDisable);
+			col = GetComponent<Collider>();
 		}
 	}
 }

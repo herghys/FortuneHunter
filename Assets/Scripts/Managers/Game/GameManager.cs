@@ -14,6 +14,8 @@ namespace Herghys
 		public UnityAction<Target> UpdateTargetReference;
         public UnityAction<Target> PlayerStopped;
 
+		public UnityAction QuestionAnswered;
+
 		public UnityAction ShowQuizQuestions;
 		public UnityAction<GameState> UpdateState;
 

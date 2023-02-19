@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8b236b995e02642a83d8798623d5da, type: 3}
   m_Name: Question 11
   m_EditorClassIdentifier: 
-  questionIndex: 11
+  questionNo: 11
+  questionIndex: 10
+  materi: 0
   questionInfo: "Salah satunya lapisan epidermis lapisannya terdiri sel \u2013 sel
     kulit mati dan selalu mengelupas, lapisan ini jelas sekali terlihat pada telapak
     tangan dan telapak kaki. Lapisan tersebut adalah"
