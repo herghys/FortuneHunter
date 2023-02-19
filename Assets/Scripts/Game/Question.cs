@@ -23,6 +23,8 @@ namespace Herghys.Game.Quiz
 		[SerializeField] private List<Answer> answers = new();
 
 		[JsonProperty("questionData")]
+		public QuestionTypes Type { get => type; set => type = value; }
+		public Sprite Image { get => questionImage ; set => questionImage = value; }
 		public int Number { get => questionNo; set => questionNo = value; }
 		public int Index { get => questionIndex; set => questionIndex = value; }
 		public SubjectTypes Materi { get => materi; set => materi = value; }

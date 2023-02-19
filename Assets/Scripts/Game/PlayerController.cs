@@ -13,6 +13,8 @@ namespace Herghys
 
 		[SerializeField] GameManager gameManager;
 
+		[SerializeField] Target currentTarget;
+
 		private void Awake()
 		{
 			if (gameManager == null) gameManager = FindObjectOfType<GameManager>();
@@ -21,18 +23,25 @@ namespace Herghys
 		private void OnEnable()
 		{
 			gameManager.MovePlayer += OnMovePlayer;
+			gameManager.UpdateTargetReference += OnUpdateTargetReference;
 		}
 
 		private void OnDisable()
 		{
 			gameManager.MovePlayer -= OnMovePlayer;
-
+			gameManager.UpdateTargetReference -= OnUpdateTargetReference;
 		}
 
 		private void OnMovePlayer(GameObject arg0)
 		{
 			SetTarget (arg0);
 		}
+
+		private void OnUpdateTargetReference(Target arg0)
+		{
+			currentTarget = arg0;
+		}
+
 
 
 		public void SetTarget(GameObject target)
@@ -52,23 +61,22 @@ namespace Herghys
 		public void MoveToDestination()
         {
             if (target == null) return;
+			agent.SetDestination(target.transform.position);
+			Debug.Log("Set Destination");
 
-			Debug.Log("Move To Target");
+			if (agent.isStopped) 
+				agent.isStopped= false;
+
+			if (!agent.isStopped)
 			animator.SetBool("IsMoving", true);
-            agent.SetDestination(target.transform.position);
         }
-
-		public void MoveToDestination(Vector3 targetPos)
-		{
-			animator.SetBool("IsMoving", true);
-			agent.SetDestination(targetPos);
-		}
 
 		public void StopMoving()
 		{
+			agent.isStopped = true;
 			animator.SetBool("IsMoving", false);
-			agent.isStopped= true;
-			gameManager.PlayerStopped?.Invoke();
+			//agent.isStopped= true;
+			gameManager.PlayerStopped?.Invoke(currentTarget);
 		}
 
 		private void OnValidate()

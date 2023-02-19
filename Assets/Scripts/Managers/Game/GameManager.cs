@@ -11,12 +11,15 @@ namespace Herghys
         [SerializeField] GameManagerUI ui;
 
 		public UnityAction<GameObject> MovePlayer;
-        public UnityAction PlayerStopped;
+		public UnityAction<Target> UpdateTargetReference;
+        public UnityAction<Target> PlayerStopped;
 
+		public UnityAction ShowQuizQuestions;
 		public UnityAction<GameState> UpdateState;
 
 		public GameState state;
 
+		
 		public UnityEvent OnContinueAfterEnd;
 
 		private void Awake()
@@ -49,7 +52,7 @@ namespace Herghys
 			state = arg0;
 		}
 
-		private void OnPlayerStopped()
+		private void OnPlayerStopped(Target target)
 		{
 			Debug.Log("Player Stopped");
 			switch (state)
@@ -71,7 +74,7 @@ namespace Herghys
 
 		private void ShowQuestion()
 		{
-			Debug.Log("Show Question");
+			ShowQuizQuestions?.Invoke();
 		}
 
 		private void ShowEnd()

@@ -13,16 +13,6 @@ namespace Herghys
 			if (gameManager is null) gameManager = FindObjectOfType<GameManager>(true);
 		}
 
-		public void Click(Vector3 pos)
-		{
-			throw new System.NotImplementedException();
-		}
-
-		public void Click(Character character)
-		{
-			throw new System.NotImplementedException();
-		}
-
 		public void Click()
 		{
 			throw new System.NotImplementedException();

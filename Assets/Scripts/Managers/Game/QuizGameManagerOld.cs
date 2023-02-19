@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Herghys.Game.Quiz.Manager
 {
-    public class QuizGameManager : MonoBehaviour
+    public class QuizGameManagerOld : MonoBehaviour
     {
         [SerializeField] int currentLevel = 1;
         [SerializeField] List<QuizDataListScriptable> quizDataScriptables;
@@ -27,6 +27,11 @@ namespace Herghys.Game.Quiz.Manager
             quizData.Questions = a.questions;
 
             Resources.UnloadAsset(a);
+        }
+
+        public void AddSelectedAnswer(Answer answer)
+        {
+            
         }
     }
 
