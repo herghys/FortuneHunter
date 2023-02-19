@@ -2,8 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Herghys;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace Herghys
 {
@@ -21,7 +24,6 @@ namespace Herghys
                 contentType = MateriContentType.Head
             };
             contents.Add (content);
-			EditorUtility.SetDirty(this);
 		}
 
 		[ContextMenu("Add Subhead")]
@@ -33,7 +35,6 @@ namespace Herghys
 				contentType = MateriContentType.Subhead
 			};
 			contents.Add(content);
-			EditorUtility.SetDirty(this);
 		}
 
 		[ContextMenu("Add Text")]
@@ -45,7 +46,6 @@ namespace Herghys
 				contentType = MateriContentType.Text
 			};
 			contents.Add(content);
-			EditorUtility.SetDirty(this);
 		}
 
 		[ContextMenu("Add Space")]
@@ -57,7 +57,7 @@ namespace Herghys
 				contentType = MateriContentType.Space
 			};
 			contents.Add(content);
-			EditorUtility.SetDirty(this);
+			SetDirty();
 		}
 
 		[ContextMenu("Add Image")]
@@ -71,7 +71,14 @@ namespace Herghys
 			AddSpace();
 			contents.Add(content);
 			AddSpace();
+			SetDirty();
+		}
+		
+		new void SetDirty()
+		{
+#if UNITY_EDITOR
 			EditorUtility.SetDirty(this);
+#endif
 		}
 	}
 
