@@ -10,9 +10,30 @@ namespace Herghys
         [SerializeField] GameManager ui;
 
 		[SerializeField] GameUIBase endGameUI;
+		[SerializeField] GameUIBase startUI;
 
 		[SerializeField]List<GameUIBase> gameUIs = new List<GameUIBase>();
 		[SerializeField] GameUIBase activeUI;
+
+		private void Awake()
+		{
+			CloseAllUI();
+		}
+
+		private void Start()
+		{
+			StartCoroutine(IE_Start());
+		}
+
+		IEnumerator IE_Start()
+		{
+
+			if (startUI != null)
+			{
+				yield return new WaitForSeconds(0.5f);
+				OpenUI(startUI);
+			}
+		}
 
 		public void OpenUI(GameUIBase ui)
 		{
@@ -34,6 +55,14 @@ namespace Herghys
 		public void CloseUI()
 		{
 			activeUI.gameObject.SetActive(false);
+		}
+
+		public void CloseAllUI()
+		{
+			foreach (var item in gameUIs)
+			{
+				item.gameObject.SetActive(false);
+			}
 		}
 
 		public void OpenEndGameUI()

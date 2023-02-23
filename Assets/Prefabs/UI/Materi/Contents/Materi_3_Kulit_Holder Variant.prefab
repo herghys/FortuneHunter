@@ -31,7 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 37349754587869644}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -223,8 +223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 933.6828, y: 0}
-  m_SizeDelta: {x: 1817.3656, y: 0}
+  m_AnchoredPosition: {x: 890.18225, y: 0}
+  m_SizeDelta: {x: 1730.3645, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1635322838
 CanvasRenderer:
@@ -262,8 +262,9 @@ MonoBehaviour:
     mengatur suhu tubuh, dan menerima rangsangan dari luar. Kulit terdiri atas tiga
     lapisan yaitu lapisan epidermis (kulit ari) dan lapisan dermis (kulit jangat)
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 27bb044cdee8d0a468cd7a4b4da76e07, type: 2}
+  m_sharedMaterial: {fileID: -6247817018050424691, guid: 27bb044cdee8d0a468cd7a4b4da76e07,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -356,65 +357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1635322837}
---- !u!1 &1636828467
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1636828468}
-  - component: {fileID: 1636828470}
-  - component: {fileID: 1636828469}
-  m_Layer: 5
-  m_Name: Space_Content
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1636828468
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636828467}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 37349754587869644}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 25}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1636828470
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636828467}
-  m_CullTransparentMesh: 1
---- !u!114 &1636828469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1636828467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d58e6fcbb2e68b941928b0b573586175, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rect: {fileID: 1636828468}
 --- !u!1 &1859364333
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,8 +394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 933.6828, y: 0}
-  m_SizeDelta: {x: 1817.3656, y: 0}
+  m_AnchoredPosition: {x: 890.18225, y: 0}
+  m_SizeDelta: {x: 1730.3645, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1859364338
 CanvasRenderer:
@@ -504,8 +446,9 @@ MonoBehaviour:
     Lapisan hipodermis banyak tersusun atas jaringan lemak sehingga juga berfungsi
     menjaga suhu tubuh."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 27bb044cdee8d0a468cd7a4b4da76e07, type: 2}
+  m_sharedMaterial: {fileID: -6247817018050424691, guid: 27bb044cdee8d0a468cd7a4b4da76e07,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -598,6 +541,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 1859364337}
+--- !u!1 &923600671156529924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 338668099755331377}
+  - component: {fileID: 2356750497858048974}
+  - component: {fileID: 4946471572336832466}
+  m_Layer: 5
+  m_Name: Space_Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &338668099755331377
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923600671156529924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37349754587869644}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2356750497858048974
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923600671156529924}
+  m_CullTransparentMesh: 1
+--- !u!114 &4946471572336832466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923600671156529924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58e6fcbb2e68b941928b0b573586175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rect: {fileID: 338668099755331377}
 --- !u!1001 &7401327578564250066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -615,6 +617,31 @@ PrefabInstance:
         type: 3}
       propertyPath: subject
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736714254639186646, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736714254639186646, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736714254639186646, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086187715988320, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Horizontal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086187715988321, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7364086187715988322, guid: b73313c35e58a1646af8f33727485cf9,
         type: 3}
@@ -799,7 +826,7 @@ PrefabInstance:
     - target: {fileID: 7364086189564918977, guid: b73313c35e58a1646af8f33727485cf9,
         type: 3}
       propertyPath: m_Size
-      value: 0.5054262
+      value: 0.40265474
       objectReference: {fileID: 0}
     - target: {fileID: 7364086189564918977, guid: b73313c35e58a1646af8f33727485cf9,
         type: 3}

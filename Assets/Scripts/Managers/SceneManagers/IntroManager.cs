@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Herghys.Global;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Herghys
@@ -31,9 +33,13 @@ namespace Herghys
         public void SetUsername(string username) 
             => Username = username;
 
+        public void GoToMenu()
+            => SceneManager.LoadScene("MainMenu");
+
         public void SaveName()
         {
             PlayerPrefs.SetString(GameConstants.PLAYER_NAME, Username);
+            GlobalVariables.Instance.Username = Username;
         }
     }
 }

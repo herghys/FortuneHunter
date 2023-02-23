@@ -20,7 +20,7 @@ namespace Herghys
 		[SerializeField] List<QuizDataSO> quizData;
         [SerializeField] int currentQuestionIndex;
         //[SerializeField] int selectedAnswerIndex;
-        [SerializeField] int totalQuestion;
+        [SerializeField] int questionCount;
 
         [Header("Question Current")]
         [SerializeField] Question currentQuestion;
@@ -28,12 +28,12 @@ namespace Herghys
         [SerializeField] AnsweredQuestion answeredQuestion;
 
         public UnityEvent OnQuestionShown;
-        public bool LastQuestion => currentQuestionIndex == totalQuestion;
+        public bool LastQuestion => currentQuestionIndex == questionCount;
 
 		private void Awake()
 		{
 			answeredManager = FindObjectOfType<AnsweredQuestionsManager>();
-            totalQuestion = quizData.Count;
+            questionCount = quizData.Count;
 
 			quizUIControl = FindObjectOfType<QuizUIController>(true);
 
@@ -83,7 +83,7 @@ namespace Herghys
 
         public void UpdateQuestions()
         {
-            if (currentQuestionIndex >= totalQuestion)
+            if (currentQuestionIndex >= questionCount)
             {
                 StartCoroutine(IE_Endgame());
                 return;
@@ -120,7 +120,7 @@ namespace Herghys
 		{
             gameManager = GetComponentInParent<GameManager>(true);
 			answeredManager = FindObjectOfType<AnsweredQuestionsManager>();
-			totalQuestion = quizData.Count - 1;
+			questionCount = quizData.Count - 1;
             quizUIControl = FindObjectOfType<QuizUIController>(true);
             gameUI = FindObjectOfType<GameManagerUI>(true);
 		}

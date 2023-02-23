@@ -6,6 +6,7 @@ namespace Herghys
 {
     public class KeyTarget : MonoBehaviour
     {
+		[SerializeField] GameManager gameManager;
 		[SerializeField] KeyManager manager;
 		[SerializeField] Collider col;
 		[SerializeField] List<ParticleSystem> particlesToDisable = new();
@@ -32,6 +33,25 @@ namespace Herghys
 				player.StopMoving();
 				gameObject.SetActive(false);
 			}
+		}
+		public void Click()
+		{
+			Debug.Log("Click");
+			if (gameManager.state != GameState.Play) return;
+			//gameManager.UpdateTargetReference?.Invoke(this);
+			gameManager.MovePlayer?.Invoke(gameObject);
+		}
+
+		private void OnMouseDown()
+		{
+			Click();
+		}
+
+		private void OnValidate()
+		{
+			if (gameManager is null) gameManager = FindObjectOfType<GameManager>(true);
+			manager = FindObjectOfType<KeyManager>();
+			col = GetComponent<Collider>();
 		}
 	}
 }

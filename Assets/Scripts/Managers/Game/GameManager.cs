@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 namespace Herghys
 {
@@ -52,6 +53,21 @@ namespace Herghys
 		private void OnStateUpdated(GameState arg0)
 		{
 			state = arg0;
+			switch (state)
+			{
+				case GameState.Play:
+					break;
+				case GameState.ShowQuestion:
+					ShowQuestion();
+					break;
+				case GameState.Pause:
+					break;
+				case GameState.End:
+					ShowEnd();
+					break;
+				default:
+					break;
+			}
 		}
 
 		private void OnPlayerStopped(Target target)
@@ -81,7 +97,13 @@ namespace Herghys
 
 		private void ShowEnd()
 		{
-			Debug.Log("Show End");
+			StartCoroutine(IE_Endgame());
+		}
+
+		IEnumerator IE_Endgame()
+		{
+			yield return new WaitForSeconds(1);
+			ui.OpenEndGameUI();
 		}
 
 		public void ContinueAfterEnd()
@@ -89,9 +111,14 @@ namespace Herghys
 			ContinueAfterEnd();
 		}
 
-		public void ContinueNextLevel()
+		public void ContinueNextLevel(string level)
 		{
+			SceneManager.LoadScene(level);
+		}
 
+		public void ContinueNextLevel(int level)
+		{
+			SceneManager.LoadScene(level);
 		}
 	}
 }

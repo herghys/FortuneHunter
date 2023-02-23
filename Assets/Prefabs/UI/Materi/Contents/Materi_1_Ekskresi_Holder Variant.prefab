@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 933.6828, y: 0}
-  m_SizeDelta: {x: 1817.3656, y: 0}
+  m_AnchoredPosition: {x: 890.18225, y: 0}
+  m_SizeDelta: {x: 1730.3645, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2131661961
 CanvasRenderer:
@@ -95,8 +95,9 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 27bb044cdee8d0a468cd7a4b4da76e07, type: 2}
+  m_sharedMaterial: {fileID: -6247817018050424691, guid: 27bb044cdee8d0a468cd7a4b4da76e07,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -120,8 +121,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48
-  m_fontSizeBase: 48
+  m_fontSize: 56
+  m_fontSizeBase: 56
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -202,10 +203,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 1f9cd468f492f9741a17058673bf41bf,
         type: 2}
+    - target: {fileID: -8692366704183915672, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: isOpened
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086187715988320, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Horizontal
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086187715988321, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7364086187715988322, guid: b73313c35e58a1646af8f33727485cf9,
         type: 3}
       propertyPath: m_Name
-      value: Materi_1_Ekskresi_Holder
+      value: Materi_1_Ekskresi_Holder Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7364086187715988322, guid: b73313c35e58a1646af8f33727485cf9,
         type: 3}
@@ -376,6 +392,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086189564918977, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Size
+      value: 0.7118929
+      objectReference: {fileID: 0}
+    - target: {fileID: 7364086189564918977, guid: b73313c35e58a1646af8f33727485cf9,
+        type: 3}
+      propertyPath: m_Value
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b73313c35e58a1646af8f33727485cf9, type: 3}

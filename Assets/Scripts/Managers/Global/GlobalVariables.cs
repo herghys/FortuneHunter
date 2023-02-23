@@ -8,7 +8,10 @@ namespace Herghys.Global
     public class GlobalVariables
     {
         public static GlobalVariables Instance = new();
+		public string Username { get; set; }
         public const string UNLOCKED_MATERI_KEY = "Materi_Unlocked";
+
+		public bool IsFinished { get; set; }
 
         public List<AnsweredQuestion> answeredQuestions = new List<AnsweredQuestion>();
 

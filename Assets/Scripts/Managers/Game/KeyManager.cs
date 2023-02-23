@@ -16,7 +16,7 @@ namespace Herghys
 		{
 			if (currentKeyTotal == total - 1)
 			{
-				manager.UpdateState?.Invoke(GameState.End);
+				manager.UpdateState?.Invoke(GameState.ShowQuestion);
 				currentKeyTotal++;
 				return;
 			}
