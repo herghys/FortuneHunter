@@ -29,6 +29,7 @@ namespace Herghys
 
         public UnityEvent OnQuestionShown;
         public bool LastQuestion => currentQuestionIndex == questionCount;
+        public Answer SelectedAnswer => selectedAnswer;
 
 		private void Awake()
 		{

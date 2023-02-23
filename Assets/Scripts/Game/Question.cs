@@ -42,6 +42,8 @@ namespace Herghys.Game.Quiz
 			Timer = so.Timer;
 			Info = so.Info;
 			Answers = so.Answers;
+			Image = so.Image;
+			Type = so.Type;
 		}
 
 
@@ -52,8 +54,10 @@ namespace Herghys.Game.Quiz
 	[Serializable]
 	public class QuestionData
 	{
+		[SerializeField] QuestionTypes type = QuestionTypes.NonImage;
 		[SerializeField] private int questionNo;
 		[SerializeField] private int questionIndex;
+		[SerializeField] Sprite questionImage = null;
 		[SerializeField] private SubjectTypes materi;
 		[TextArea(minLines: 1, maxLines: 10)]
 		[SerializeField] private string questionInfo = string.Empty;
@@ -62,8 +66,10 @@ namespace Herghys.Game.Quiz
 		[SerializeField] private List<Answer> answers = new();
 
 		[JsonProperty("questionData")]
+		public QuestionTypes Type { get => type; set => type = value; }
 		public int Number { get => questionNo; set => questionNo = value; }
 		public int Index { get => questionIndex; set => questionIndex = value; }
+		public Sprite Image { get => questionImage; set => questionImage = value; }
 		public SubjectTypes Materi { get => materi; set => materi = value; }
 		public string Info { get => questionInfo; set => questionInfo = value; }
 		public bool IsCorrect { get => isCorrect; set => isCorrect = value; }
@@ -78,6 +84,8 @@ namespace Herghys.Game.Quiz
 			Materi = so.Materi;
 			Info = so.Info;
 			Answers = so.Answers;
+			Image = so.Image;
+			Type = so.Type;
 		}
 	}
 

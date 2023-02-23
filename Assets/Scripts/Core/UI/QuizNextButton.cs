@@ -35,6 +35,9 @@ namespace Herghys
 
 		public void Clicked()
 		{
+			if (quizManager.SelectedAnswer is null || string.IsNullOrEmpty(quizManager.SelectedAnswer.Info))
+				return;
+
 			quizManager.AddAsAnsweredQuestion();
 
 			if (CloseUIOnFinish || quizManager.LastQuestion)
