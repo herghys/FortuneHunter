@@ -4444,7 +4444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 2.37, y: 2.09, z: 0}
+  m_TrackedObjectOffset: {x: -0.24, y: 2.51, z: 0}
   m_LookaheadTime: 0.059
   m_LookaheadSmoothing: 4.4
   m_LookaheadIgnoreY: 0
@@ -4641,7 +4641,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354520622}
-  m_LocalRotation: {x: -0.006920469, y: 0.9894125, z: -0.050371885, w: -0.13593292}
+  m_LocalRotation: {x: -0.006918093, y: 0.98941886, z: -0.050372213, w: -0.13588624}
   m_LocalPosition: {x: 18.224, y: 2.83, z: -4.968}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6409,7 +6409,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526088703}
-  m_LocalRotation: {x: 0.03226837, y: -0.53248477, z: 0.020320266, w: 0.8455802}
+  m_LocalRotation: {x: -0.019417936, y: -0.7097893, z: -0.019581115, w: 0.7038741}
   m_LocalPosition: {x: 3.67, y: 0.62, z: 2.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6553,7 +6553,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ba35e50d1201f794f8b936b894b7f608, type: 2}
   - {fileID: 11400000, guid: 048c24e51ccb7f94dbb7b2c5b5933fd9, type: 2}
   currentQuestionIndex: 0
-  questionLength: 3
+  questionCount: 3
   currentQuestion:
     type: 0
     questionImage: {fileID: 0}
@@ -7715,7 +7715,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645995424}
-  m_LocalRotation: {x: -0.021086335, y: 0.7175589, z: -0.021744529, w: -0.69583887}
+  m_LocalRotation: {x: -0.021088345, y: 0.71749467, z: -0.021742582, w: -0.69590515}
   m_LocalPosition: {x: 11.64, y: 3.1, z: 0.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12118,7 +12118,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -15418,7 +15418,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.22000001
   m_MinRegionArea: 0.97
-  m_NavMeshData: {fileID: 23800000, guid: 176f9b2d97965b94e91e96580dae3093, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: c481a735e4cef02468218199324d5a12, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &1356271720
 Transform:
@@ -19069,7 +19069,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673609407}
-  m_LocalRotation: {x: -0.019500267, y: 0.76428634, z: -0.023136534, w: -0.6441668}
+  m_LocalRotation: {x: -0.019502401, y: 0.7642268, z: -0.023134723, w: -0.64423746}
   m_LocalPosition: {x: 10.437, y: 3.14, z: 2.295}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -24701,7 +24701,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018271272}
-  m_LocalRotation: {x: 0.03226837, y: -0.53248477, z: 0.020320266, w: 0.8455802}
+  m_LocalRotation: {x: -0.019417936, y: -0.7097893, z: -0.019581115, w: 0.7038741}
   m_LocalPosition: {x: 3.67, y: 0.62, z: 2.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -25543,8 +25543,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
