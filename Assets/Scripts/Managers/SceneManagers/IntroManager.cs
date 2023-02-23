@@ -13,6 +13,7 @@ namespace Herghys
     {
         [SerializeField] Button saveNameButton;
         [SerializeField] TMP_InputField nameInputField;
+        [SerializeField] bool IsFinished { get; set; }
 
         public string Username { get; set; }
 
@@ -35,6 +36,12 @@ namespace Herghys
 
         public void GoToMenu()
             => SceneManager.LoadScene("MainMenu");
+
+        public void GetSaveState()
+        {
+            IsFinished = bool.Parse( PlayerPrefs.GetString(GameConstants.IS_FINISHED));
+            GlobalVariables.Instance.IsFinished = IsFinished;
+        }
 
         public void SaveName()
         {

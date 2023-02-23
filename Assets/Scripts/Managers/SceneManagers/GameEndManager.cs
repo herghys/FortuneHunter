@@ -48,6 +48,9 @@ namespace Herghys
 
 			saveData.AnsweredQuestions = GlobalVariables.Instance.answeredQuestions;
 
+			GlobalVariables.Instance.IsFinished = true;
+			PlayerPrefs.SetString(GameConstants.IS_FINISHED, bool.TrueString);
+
 			if (!string.IsNullOrEmpty(saveData.Name))
 				fileName = $"{saveData.Name}_saveData.json";
 
