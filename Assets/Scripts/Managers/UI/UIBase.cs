@@ -11,11 +11,13 @@ namespace Herghys
         [SerializeField] protected Canvas canvas;
         public virtual void OpenWindow()
         {
+            gameObject.SetActive(true);
             canvas.enabled = true;
         }
 
         public virtual void CloseWindow() 
-        { 
+        {
+            gameObject.SetActive(false);
             canvas.enabled= false;
         }
 
