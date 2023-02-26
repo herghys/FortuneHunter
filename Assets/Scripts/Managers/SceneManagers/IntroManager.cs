@@ -17,6 +17,11 @@ namespace Herghys
 
         public string Username { get; set; }
 
+		private void Awake()
+		{
+            GetSaveState();
+		}
+
 		private void OnEnable()
 		{
             saveNameButton.onClick.AddListener(SaveName);
@@ -30,12 +35,17 @@ namespace Herghys
 			nameInputField.onValueChanged.RemoveListener(SetUsername);
 			nameInputField.onEndEdit.RemoveListener(SetUsername);
 		}
-        
-        public void SetUsername(string username) 
-            => Username = username;
+
+        public void SetUsername(string username)
+        {
+            Username = username;
+        }
 
         public void GoToMenu()
-            => SceneManager.LoadScene("MainMenu");
+        {
+            if (string.IsNullOrEmpty(Username)) return;
+            SceneManager.LoadScene("MainMenu");
+        }
 
         public void GetSaveState()
         {
@@ -45,8 +55,10 @@ namespace Herghys
 
         public void SaveName()
         {
-            PlayerPrefs.SetString(GameConstants.PLAYER_NAME, Username);
-            GlobalVariables.Instance.Username = Username;
+            if (string.IsNullOrEmpty(Username)) return;
+
+            PlayerPrefs.SetString(GameConstants.PLAYER_NAME, Username.Replace(" ", "-"));
+            GlobalVariables.Instance.Username = Username.Replace(" ", "-");
         }
     }
 }

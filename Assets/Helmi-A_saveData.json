@@ -1,0 +1,119 @@
+{
+  "Nama": "Helmi-A",
+  "Score": 5,
+  "JumlahBenar": 1,
+  "Jawaban": [
+    {
+      "Nomor": 17,
+      "TipeMateri": 3,
+      "Pertanyaan": "Hati sebagai organ ekskresi pada manusia berfungsi untuk",
+      "Correct": false,
+      "JawabanTerpilih": {
+        "Jawaban": "Menyimpan gula dalam bentuk glikogen",
+        "Correct": false
+      },
+      "Jawaban": [
+        {
+          "Jawaban": "Menyimpan gula dalam bentuk glikogen",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Tempat mengubah pro vitamin A menjadi vitamin",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Merombak sel darah merah yang rusak menjadi empedu",
+          "Correct": true
+        },
+        {
+          "Jawaban": "Membentuk protein tertentu dan merombaknya",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "Nomor": 18,
+      "TipeMateri": 0,
+      "Pertanyaan": "Zat berikut yang tidak dihasilkan oleh hati adalah",
+      "Correct": true,
+      "JawabanTerpilih": {
+        "Jawaban": "Empedu",
+        "Correct": true
+      },
+      "Jawaban": [
+        {
+          "Jawaban": "Urea",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Empedu",
+          "Correct": true
+        },
+        {
+          "Jawaban": "Glukosa",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Urine",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "Nomor": 19,
+      "TipeMateri": 3,
+      "Pertanyaan": "Berikut ini adalah beberapa penyakit apabila sistem ekskresi terganggu, kecuali",
+      "Correct": false,
+      "JawabanTerpilih": {
+        "Jawaban": "Diabetes melitus",
+        "Correct": false
+      },
+      "Jawaban": [
+        {
+          "Jawaban": "Diabetes melitus",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Gerd",
+          "Correct": true
+        },
+        {
+          "Jawaban": "Batu ginjal",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Diabetes insipidus",
+          "Correct": false
+        }
+      ]
+    },
+    {
+      "Nomor": 20,
+      "TipeMateri": 3,
+      "Pertanyaan": "Sistem ekskresi yang terganggu akan mengakibatkan beberapa penyakit sebagai berikut, hubungan yang benar antara organ ekskresi dan penyakitnya adalah",
+      "Correct": false,
+      "JawabanTerpilih": {
+        "Jawaban": "Organ ekskresi: Paru-paru\nPenyakit: Gerd",
+        "Correct": false
+      },
+      "Jawaban": [
+        {
+          "Jawaban": "Organ ekskresi: Ginjal\nPenyakit: Batu empedu",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Organ ekskresi: Kulit\nPenyakit: kudis",
+          "Correct": true
+        },
+        {
+          "Jawaban": "Organ ekskresi: Paru-paru\nPenyakit: Gerd",
+          "Correct": false
+        },
+        {
+          "Jawaban": "Organ ekskresi: Hati\nPenyakit: Gastritis",
+          "Correct": false
+        }
+      ]
+    }
+  ]
+}

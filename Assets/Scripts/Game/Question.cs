@@ -65,7 +65,6 @@ namespace Herghys.Game.Quiz
 		[SerializeField] private Answer selectedAnswer = new();
 		[SerializeField] private List<Answer> answers = new();
 
-		[JsonProperty("questionData")]
 		public QuestionTypes Type { get => type; set => type = value; }
 		public int Number { get => questionNo; set => questionNo = value; }
 		public int Index { get => questionIndex; set => questionIndex = value; }
@@ -102,13 +101,19 @@ namespace Herghys.Game.Quiz
         [SerializeField] private Answer selectedAnswer = new();
         [SerializeField] private List<Answer> answers = new();
 
-        [JsonProperty("questionData")]
+        [JsonProperty("Nomor")]
 		public int Number {get => questionNo; set => questionNo = value; }
+		[JsonIgnore]
 		public int Index {get => questionIndex; set => questionIndex = value; }
+		[JsonProperty("TipeMateri")]
 		public SubjectTypes Materi { get => materi; set => materi = value; }
+		[JsonProperty("Pertanyaan")]
 		public string Info { get => questionInfo; set => questionInfo = value; }
-        public bool IsCorrect { get => isCorrect; set => isCorrect = value; }
-        public Answer SelectedAnswer { get => selectedAnswer; set => selectedAnswer = value; }
+		[JsonProperty("Correct")]
+		public bool IsCorrect { get => isCorrect; set => isCorrect = value; }
+		[JsonProperty("JawabanTerpilih")]
+		public Answer SelectedAnswer { get => selectedAnswer; set => selectedAnswer = value; }
+		[JsonProperty("Jawaban")]
 		public List<Answer> Answers {get => answers; set => answers = value; }
 
         public AnsweredQuestion() { }

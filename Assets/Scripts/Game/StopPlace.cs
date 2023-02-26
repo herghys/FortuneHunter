@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 namespace Herghys
 {
@@ -8,19 +9,25 @@ namespace Herghys
     {
 		public GameManager manager;
 		public GameState state;
+		public PlayableDirector director;
+		public PlayableAsset clip;
+		public bool triggerCutscene;
 
 		private void Awake()
 		{
 			if (manager == null) manager = FindObjectOfType<GameManager>();
+			if (director == null) director = FindObjectOfType<PlayableDirector>();
 		}
 
 		private void OnTriggerEnter(Collider other)
 		{
 			if (other.CompareTag("Player"))
 			{
-				manager.UpdateState?.Invoke(state);
 				var player = other.GetComponent<PlayerController>();
 				player.StopMoving();
+				if (triggerCutscene)
+				PlayCutscene();
+				//director.Play();
 			}
 		}
 
@@ -28,15 +35,30 @@ namespace Herghys
 		{
 			if (collision.collider.CompareTag("Player"))
 			{
-				manager.UpdateState?.Invoke(state);
 				var player = collision.collider.GetComponent<PlayerController>();
 				player.StopMoving();
+				if (triggerCutscene) 
+				PlayCutscene();
+				//director.Play();
 			}
 		}
 
 		private void OnValidate()
 		{
 			if (manager == null) manager = FindObjectOfType<GameManager>();
+		}
+
+		public void PlayCutscene()
+		{
+			director.playableAsset= clip;
+			director.Play();
+		}
+
+		public void UpdateState()
+		{
+			Debug.Log("Update State");
+			manager.UpdateState?.Invoke(state);
+			director.Stop();
 		}
 	}
 }

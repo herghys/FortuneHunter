@@ -19,18 +19,20 @@ namespace Herghys
 
 		[SerializeField] SaveDataModel saveData = new();
 
+		bool doneCalulation = false;
+
 		string cDir = @"C:\FortuneHunterData\";
 		string fileName = "saveData.json";
 
 		private void Awake()
 		{
 			CalculateScore();
-			SaveData();
+			
 		}
 
-		public void Finish()
+		private void Start()
 		{
-			SceneManager.LoadScene("MainMenu");
+			StartCoroutine(IE_SaveData());
 		}
 
 		public void CalculateScore()
@@ -40,11 +42,14 @@ namespace Herghys
 			scoreText.text = score.ToString();
 		}
 
-		public void SaveData()
+
+		IEnumerator IE_SaveData()
 		{
 			saveData.Name = PlayerPrefs.GetString(GameConstants.PLAYER_NAME);
 			saveData.JumlahBenar = correct;
 			saveData.Score = score;
+
+			yield return null;
 
 			saveData.AnsweredQuestions = GlobalVariables.Instance.answeredQuestions;
 
@@ -54,10 +59,12 @@ namespace Herghys
 			if (!string.IsNullOrEmpty(saveData.Name))
 				fileName = $"{saveData.Name}_saveData.json";
 
-				if (!Directory.Exists(@"C:\FortuneHunterData"))
+			if (!Directory.Exists(@"C:\FortuneHunterData"))
 				Directory.CreateDirectory(@"C:\FortuneHunterData");
 
-			var save = JsonConvert.SerializeObject(saveData);
+			var save = JsonConvert.SerializeObject(saveData, Formatting.Indented);
+
+			Debug.Log(save);
 
 			try { File.WriteAllText($"{cDir}{fileName}", save); } catch { }
 
@@ -65,6 +72,13 @@ namespace Herghys
 
 			try { File.WriteAllText($"{Application.dataPath}/{fileName}", save); } catch { }
 
+			yield return new WaitForSeconds(1);
+			doneCalulation = true;
+		}
+		public void Finish()
+		{
+			if (!doneCalulation) return;
+			SceneManager.LoadScene("MainMenu");
 		}
 	}
 }

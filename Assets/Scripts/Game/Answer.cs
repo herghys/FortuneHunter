@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 using UnityEngine;
 
 namespace Herghys.Game.Quiz
@@ -15,9 +16,12 @@ namespace Herghys.Game.Quiz
         [SerializeField] private bool isCorrectAnswer;
 
 		#region Properties
+		[JsonProperty("Jawaban")]
 		public string Info => answerInfo;
+        [JsonIgnore]
         public Sprite Image => answerImage;
-        public bool CorrectAnswer => isCorrectAnswer;
+		[JsonProperty("Correct")]
+		public bool CorrectAnswer => isCorrectAnswer;
 		#endregion
 	}
 }
