@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -26,8 +24,9 @@ namespace Herghys
 				var player = other.GetComponent<PlayerController>();
 				player.StopMoving();
 				if (triggerCutscene)
-				PlayCutscene();
-				//director.Play();
+					PlayCutscene();
+				else
+					manager.UpdateState?.Invoke(state);
 			}
 		}
 
@@ -38,8 +37,9 @@ namespace Herghys
 				var player = collision.collider.GetComponent<PlayerController>();
 				player.StopMoving();
 				if (triggerCutscene) 
-				PlayCutscene();
-				//director.Play();
+					PlayCutscene();
+				else
+					manager.UpdateState?.Invoke(state);
 			}
 		}
 

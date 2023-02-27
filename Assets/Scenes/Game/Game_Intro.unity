@@ -5396,6 +5396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 1450219780}
   state: 4
+  director: {fileID: 0}
+  clip: {fileID: 0}
+  triggerCutscene: 0
 --- !u!1 &534862568
 GameObject:
   m_ObjectHideFlags: 0
